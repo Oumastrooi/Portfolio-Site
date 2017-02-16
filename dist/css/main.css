@@ -1,0 +1,35 @@
+body{
+    margin-top: 5%; 
+    font-family: "mr-eaves-sans", Arial, Helvetica, sans-serif;   
+}
+.row{
+    margin-top: 25px;   
+}
+
+.box{
+    background-color: dimgray; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    border-radius: 5px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tall{
+    height: 330px;
+    position: absolute;
+    padding-right: 31%;
+}
+
+.box a{
+    color:white;
+    font-size: 2em;
+    text-decoration:none;
+    text-align:center;
+}
+.box a:hover{
+    text-decoration: none;
+    color:white;
+    text-align:center;
+}
