@@ -2,6 +2,23 @@ header {
     background-image: url("../img/Terra/Hero.jpg");
 }
 
+#Terra h1{
+    font-family: 'Oswald', sans-serif;
+    mix-blend-mode: multiply;
+    color: #9E1D21;
+    font-size: 7em;
+    text-align: right;
+    font-weight: bold;
+}
+
+#Terra h2{
+    font-family: 'Oswald', sans-serif;
+    mix-blend-mode: multiply;
+    color: #1d1d1c;
+    text-align: right;
+    line-height: 5px;
+}
+
 .bottom-rule {
     border-bottom-color: #9E1D21;
     border-bottom-style: solid;
@@ -14,3 +31,4 @@ header {
     margin-bottom: 2%;
     margin-top: 2%;
 }
+
