@@ -1,5 +1,6 @@
 header {
     background-image: url("../img/Terra/Hero.jpg");
+    z-index: 99;
 }
 
 #Terra h1{
@@ -32,3 +33,20 @@ header {
     margin-top: 2%;
 }
 
+.oswald-med{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.oswald-reg{
+     font-family: 'Oswald', sans-serif;
+     font-weight: 400;
+}
+
+.helvetica{
+    font-family: Helvetica, sans-serif;
+}
+
+aside{
+    z-index: 50;
+}
