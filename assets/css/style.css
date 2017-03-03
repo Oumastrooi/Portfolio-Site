@@ -375,18 +375,18 @@ input {
 
 /* FOOTER */
 
-#f {
+footer {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #22A7F0;
 }
 
-#f i {
+footer i {
     margin-right: 30px;
     font-size: 35px;
 }
 
-#f a {
+footer a {
     color: white;
 }
 
