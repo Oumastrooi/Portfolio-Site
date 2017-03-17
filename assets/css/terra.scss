@@ -1,0 +1,84 @@
+$red: #9E1D21;
+$black: #1d1d1c;
+$white: #000000;
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    color: $red;
+}
+
+header {
+    background-image: url("../img/Terra/hero1.jpg");
+    background-size: cover;
+    max-width: 100%;
+    z-index: 99;
+}
+
+section {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+navbar-header {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#Terra {
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        mix-blend-mode: multiply;
+        color: $red;
+        font-size: 7em;
+        text-align: right;
+        font-weight: bold;
+    }
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        mix-blend-mode: multiply;
+        color: $black;
+        text-align: right;
+        line-height: 5px;
+    }
+}
+
+.oswald-med {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.oswald-reg {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+aside {
+    z-index: 50;
+}
+
+.pad-top {
+    padding-top: 20em;
+}
+
+.device {
+    padding-top: 23%;
+    padding-bottom: 2%;
+}

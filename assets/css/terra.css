@@ -1,52 +1,67 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
+h1,
+h2 {
+  color: #9E1D21; }
+
 header {
-    background-image: url("../img/Terra/Hero.jpg");
-    z-index: 99;
-}
+  background-image: url("../img/Terra/hero1.jpg");
+  background-size: cover;
+  max-width: 100%;
+  z-index: 99; }
 
-#Terra h1{
-    font-family: 'Oswald', sans-serif;
-    mix-blend-mode: multiply;
-    color: #9E1D21;
-    font-size: 7em;
-    text-align: right;
-    font-weight: bold;
-}
+section {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
 
-#Terra h2{
-    font-family: 'Oswald', sans-serif;
-    mix-blend-mode: multiply;
-    color: #1d1d1c;
-    text-align: right;
-    line-height: 5px;
-}
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
 
-.bottom-rule {
-    border-bottom-color: #9E1D21;
-    border-bottom-style: solid;
-    border-bottom-width: medium;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: .5;
-    width: 70%;
-    box-shadow: 1px 2px 4px rgba(1, 1, 1, .75);
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
+navbar-header {
+  padding-right: 15px;
+  padding-left: 15px; }
 
-.oswald-med{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-}
+#Terra h1 {
+  font-family: 'Oswald', sans-serif;
+  mix-blend-mode: multiply;
+  color: #9E1D21;
+  font-size: 7em;
+  text-align: right;
+  font-weight: bold; }
+#Terra h2 {
+  font-family: 'Oswald', sans-serif;
+  mix-blend-mode: multiply;
+  color: #1d1d1c;
+  text-align: right;
+  line-height: 5px; }
 
-.oswald-reg{
-     font-family: 'Oswald', sans-serif;
-     font-weight: 400;
-}
+.oswald-med {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500; }
 
-.helvetica{
-    font-family: Helvetica, sans-serif;
-}
+.oswald-reg {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
 
-aside{
-    z-index: 50;
-}
+.helvetica {
+  font-family: Helvetica, sans-serif; }
+
+aside {
+  z-index: 50; }
+
+.pad-top {
+  padding-top: 20em; }
+
+.device {
+  padding-top: 23%;
+  padding-bottom: 2%; }
+
+/*# sourceMappingURL=terra.css.map */
