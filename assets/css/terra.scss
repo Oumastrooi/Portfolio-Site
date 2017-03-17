@@ -1,6 +1,7 @@
 $red: #9E1D21;
 $black: #1d1d1c;
 $white: #000000;
+$offwhite: #E4E5E5;
 body,
 h1,
 h2,
@@ -70,15 +71,16 @@ navbar-header {
     font-family: Helvetica, sans-serif;
 }
 
-aside {
-    z-index: 50;
-}
-
 .pad-top {
     padding-top: 20em;
 }
 
 .device {
-    padding-top: 23%;
+    padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.team {
+    z-index: 100;
+    opacity: .99;
 }

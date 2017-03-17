@@ -1,0 +1,15 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+section {
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif;
+  color: #335489; }
+
+#coabode {
+  background-image: url("../img/Coabode/header2.jpg");
+  max-width: 100%; }
+
+/*# sourceMappingURL=coabode.css.map */

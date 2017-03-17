@@ -1,0 +1,19 @@
+$blue: #335489;
+$lightblue: #6ab8cc;
+$green: #387959;
+$orange: #fc834e;
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+section {
+    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
+    color: $blue;
+}
+
+#coabode {
+    background-image: url("../img/Coabode/header2.jpg");
+    max-width: 100%;
+}

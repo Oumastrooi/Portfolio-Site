@@ -74,7 +74,7 @@ aside {
     height: 100%;
     margin-top: 20px;
     background-color: none;
-    z-index: 1;
+    white-space: nowrap;
 }
 
 aside nav {
@@ -149,6 +149,5 @@ aside .nav li .active a:active {
 }
 
 .none {
-    margin: 0;
     padding: 0;
 }

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA;;;;;;OAMQ;EACJ,WAAW,EAAE,4CAA4C;EACzD,KAAK,EAZF,OAAO;;AAed,QAAS;EACL,gBAAgB,EAAE,iCAAiC;EACnD,SAAS,EAAE,IAAI",
+"sources": ["coabode.scss"],
+"names": [],
+"file": "coabode.css"
+}
