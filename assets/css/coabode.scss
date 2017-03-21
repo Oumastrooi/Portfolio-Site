@@ -15,5 +15,45 @@ section {
 
 #coabode {
     background-image: url("../img/Coabode/header2.jpg");
-    max-width: 100%;
+}
+
+h2 {
+    font-weight: 700;
+    color: $orange;
+}
+
+.color1 {
+    background-color: $blue;
+    text-align: center;
+    p {
+        color: white;
+        line-height: 3em;
+    }
+}
+
+.color2 {
+    background-color: $lightblue;
+    text-align: center;
+    p {
+        color: white;
+        line-height: 3em;
+    }
+}
+
+.color3 {
+    background-color: $green;
+    text-align: center;
+    p {
+        color: white;
+        line-height: 3em;
+    }
+}
+
+.color4 {
+    background-color: $orange;
+    text-align: center;
+    p {
+        color: white;
+        line-height: 3em;
+    }
 }

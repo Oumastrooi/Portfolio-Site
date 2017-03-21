@@ -9,7 +9,38 @@ section {
   color: #335489; }
 
 #coabode {
-  background-image: url("../img/Coabode/header2.jpg");
-  max-width: 100%; }
+  background-image: url("../img/Coabode/header2.jpg"); }
+
+h2 {
+  font-weight: 700;
+  color: #fc834e; }
+
+.color1 {
+  background-color: #335489;
+  text-align: center; }
+  .color1 p {
+    color: white;
+    line-height: 3em; }
+
+.color2 {
+  background-color: #6ab8cc;
+  text-align: center; }
+  .color2 p {
+    color: white;
+    line-height: 3em; }
+
+.color3 {
+  background-color: #387959;
+  text-align: center; }
+  .color3 p {
+    color: white;
+    line-height: 3em; }
+
+.color4 {
+  background-color: #fc834e;
+  text-align: center; }
+  .color4 p {
+    color: white;
+    line-height: 3em; }
 
 /*# sourceMappingURL=coabode.css.map */
