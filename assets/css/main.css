@@ -1,153 +1,150 @@
+.pad-left {
+  padding-left: .5em; }
+
+.tech {
+  max-width: 100%; }
+
+.none {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+
+.navbar-nav {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(1, 1, 1, 0); }
+  .navbar-nav li a {
+    color: black; }
+  .navbar-nav li a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: underline; }
+  .navbar-nav li a:active {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0); }
+  .navbar-nav li a:focus {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0); }
+
 body {
-    font-family: 'aller', Arial, Helvetica, sans-serif;
-    position: relative;
-}
+  font-family: 'aller', Arial, Helvetica, sans-serif;
+  position: relative; }
 
 section {
-    padding: 4%;
-}
+  padding: 4%; }
 
 header {
-    z-index: 5;
-}
+  z-index: 5; }
 
 h1,
 h2,
 h3 {
-    font-family: 'aller', Arial, Helvetica, sans-serif;
-}
+  font-family: 'aller', Arial, Helvetica, sans-serif; }
 
 h4,
 h5,
 h6 {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif;
+  font-weight: bold; }
 
 h5 {
-    font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 p {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif; }
 
 a {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: inherit;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: inherit; }
 
 .color-background {
-    background-color: #606060;
-    color: white;
-}
+  background-color: #606060;
+  color: white; }
 
 .color-background p {
-    color: white;
-    text-align: left;
-    font-size: 1.2em;
-    letter-spacing: .5px;
-}
+  color: white;
+  text-align: left;
+  font-size: 1.2em;
+  letter-spacing: .5px; }
 
 .color-background a {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white; }
 
 .color-background h5 {
-    text-align: left;
-    color: white;
-    letter-spacing: 1px;
-}
-
+  text-align: left;
+  color: white;
+  letter-spacing: 1px; }
 
 /* Sticky Left Nav Settings */
-
 aside {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-    position: fixed;
-    left: 0;
-    top: 5%;
-    bottom: 0;
-    height: 100%;
-    margin-top: 20px;
-    background-color: none;
-    white-space: nowrap;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif;
+  position: fixed;
+  left: 0;
+  top: 5%;
+  bottom: 0;
+  height: 100%;
+  margin-top: 20px;
+  background-color: none;
+  white-space: nowrap; }
 
 aside nav {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif; }
 
 aside .nav li a {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 1 em;
-    -webkit-transition-property: font-size;
-    /* Safari */
-    transition-property: font-size;
-    transition-duration: .1s;
-    color: black;
-}
+  background-color: transparent;
+  font-size: 1 em;
+  -webkit-transition-property: font-size;
+  /* Safari */
+  transition-property: font-size;
+  transition-duration: .1s;
+  color: black; }
 
 aside .nav li a:hover {
-    font-size: 1.25em;
-    background-color: rgba(0, 0, 0, 0);
-}
+  font-size: 1.25em;
+  background-color: transparent; }
 
 aside .nav li a:focus {
-    font-size: 1.25em;
-    background-color: rgba(0, 0, 0, 0);
-}
+  font-size: 1.25em;
+  background-color: transparent; }
 
 aside .nav li .active a:active {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 1.25em;
-}
+  background-color: transparent;
+  font-size: 1.25em; }
 
-.nav-stacked>li .active {
-    font-size: 1.25em;
-}
+.nav-stacked > li .active {
+  font-size: 1.25em; }
 
 .nav-stacked {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif; }
 
 .nav-stacked .active {
-    font-size: 1.25em;
-}
+  font-size: 1.25em; }
 
 .nav-stacked a {
-    padding: 25%;
-}
+  padding: 25%; }
 
 #Branding,
 #Challenges,
 #About,
 #App {
-    position: relative;
-    padding-top: 100px;
-}
-
+  position: relative; }
 
 /* Top navbar Settings */
-
 .navbar {
-    font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-    background-color: rgba(1, 1, 1, 1);
-    color: white;
-}
+  font-family: 'proxima nova', Arial, Helvetica, sans-serif;
+  background-color: #010101;
+  color: white; }
 
-.navbar>li {
-    color: black;
-    font-family: inherit;
-}
+.navbar > li {
+  color: black;
+  font-family: inherit; }
 
 .navbar-right {
-    padding-right: 10%;
-}
+  padding-right: 10%; }
 
 .none {
-    padding: 0;
-}
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
