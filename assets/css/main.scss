@@ -14,8 +14,7 @@
 }
 
 .navbar-nav {
-    background-color: rgba(255, 255, 255, 0);
-    border-color: rgba(1, 1, 1, 0);
+    border-color: rgba(255, 255, 255, 0);
     li {
         a {
             color: black;
@@ -171,8 +170,9 @@ aside .nav li .active a:active {
 
 .navbar {
     font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-    background-color: rgba(1, 1, 1, 1);
+    background-color: rgba(255, 255, 255, 0);
     color: white;
+    border-color: rgba(255, 255, 255, 0);
 }
 
 .navbar>li {
