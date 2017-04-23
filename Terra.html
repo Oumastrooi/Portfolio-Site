@@ -65,44 +65,39 @@
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
     <!-- Navigation -->
-
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                <a class="navbar-brand" href="#">Elize Geldenhuys</a>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Elize Geldenhuys</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right fixed-top">
-                    <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Connect</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Terra.html">Terra by Osprey</a></li>
-                            <li><a href="#">Gil's Broiler</a></li>
-                            <li><a href="coabode.html">Coabode</a></li>
-                            <li><a href="#">Tempo for Intuit</a></li>
-                            <li><a href="#">Slate</a></li>
-                            <li><a href="#">Share Africa</a></li>
-                        </ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#g">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Connect</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
 
@@ -473,7 +468,23 @@
 
     </section>
 
+    <section id="project-scroll">
+        <div class="row">
+            <div class="col-xs-6 col-md-3 col-md-offset-1">
+                <a href="#">
+                    <i class="ion-chevron-left"> </i>
+                    <h5>Previous Project </h5>
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3 col-md-offset-5">
+                <a href="tempo.html">
+                    <h5 style="text-align: right;"> Next Project </h5>
+                    <i class="ion-chevron-right"> </i>
+                </a>
 
+            </div>
+        </div>
+    </section>
 
 
     <footer>

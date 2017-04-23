@@ -10,20 +10,6 @@
   margin-left: 0;
   margin-right: 0; }
 
-.navbar-nav {
-  border-color: rgba(255, 255, 255, 0); }
-  .navbar-nav li a {
-    color: black; }
-  .navbar-nav li a:hover {
-    background-color: rgba(255, 255, 255, 0);
-    text-decoration: underline; }
-  .navbar-nav li a:active {
-    text-decoration: underline;
-    background-color: rgba(255, 255, 255, 0); }
-  .navbar-nav li a:focus {
-    text-decoration: underline;
-    background-color: rgba(255, 255, 255, 0); }
-
 body {
   font-family: 'aller', Arial, Helvetica, sans-serif;
   position: relative; }
@@ -32,7 +18,11 @@ section {
   padding: 4%; }
 
 header {
-  z-index: 5; }
+  z-index: 5;
+  background-image: url("../img/header1.jpg");
+  color: chocolate; }
+  header i {
+    font-size: 5em; }
 
 h1,
 h2,
@@ -131,20 +121,22 @@ aside .nav li .active a:active {
   position: relative; }
 
 /* Top navbar Settings */
+.navbar-default .navbar-nav > li > a {
+  color: chocolate;
+  text-align: right; }
+
+.navbar-default .navbar-brand {
+  color: chocolate; }
+
 .navbar {
-  font-family: 'proxima nova', Arial, Helvetica, sans-serif;
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
-  border-color: rgba(255, 255, 255, 0); }
+  padding: 0 0; }
 
-.navbar > li {
-  color: black;
-  font-family: inherit; }
-
-.navbar-right {
-  padding-right: 10%; }
-
-.none {
-  padding: 0; }
+/* Project scroller */
+#project-scroll i {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px; }
+#project-scroll h5 {
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,103 @@
+$green: #2CA01C;
+$blue: #0077C5;
+$red: #D52B1E;
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    color: $blue;
+}
+
+header {
+    background-image: url("../img/tempo/hero.jpg");
+    background-size: cover;
+    max-width: 100%;
+    z-index: 99;
+}
+
+section {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+navbar-header {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#tempo h1 {
+    font-family: 'Nunito', sans-serif;
+    color: $blue;
+    font-size: 7em;
+    text-align: right;
+    font-weight: bold;
+}
+
+#tempo h2 {
+    font-family: 'Nunito', sans-serif;
+    color: $green;
+    text-align: right;
+    line-height: 5px;
+}
+
+h3 {
+    color: $blue;
+    font-size: 2em;
+}
+
+.avenir-roman {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.avenir-black {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.pad-top {
+    padding-top: 20em;
+}
+
+.device {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+/* Portfolio */
+
+.portfolio .sy-controls {
+    display: block;
+}
+
+.portfolio .sy-pager {
+    margin: 1.5em 0;
+}
+
+.portfolio .external-captions {
+    background-color: #fff;
+    padding: 1em;
+}
+
+.sy-slides-wrap {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*# sourceMappingURL=terra.css.map */

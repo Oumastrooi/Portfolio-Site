@@ -39,10 +39,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Elize Geldenhuys CSS -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -57,46 +58,45 @@
     <![endif]-->
 </head>
 
-<body>
-    <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                <a class="navbar-brand" href="#">Elize Geldenhuys</a>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Elize Geldenhuys</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right fixed-top">
-                    <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Connect</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Terra.html">Terra by Osprey</a></li>
-                            <li><a href="#">Gil's Broiler</a></li>
-                            <li><a href="coabode.html">Coabode</a></li>
-                            <li><a href="#">Tempo for Intuit</a></li>
-                            <li><a href="#">Allusion</a></li>
-                            <li><a href="#">Cumula</a></li>
-                        </ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#g">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Connect</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
-    <div id="h">
+    <header>
         <div class="container centered ptb mt">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -128,18 +128,18 @@
             <!--/row-->
         </div>
         <!--/container-->
-    </div>
+    </header>
     <!--H-->
 
     <div class="container ptb">
         <div class="row">
-            <h2 class="centered mb">I design and develop beautiful interfaces<br/>that are focused on the user experience.</h2>
-            <div class="col-xs-4 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6">
+            <h2 class="centered mb">I design and develop beautiful interfaces<br>that are focused on the user experience.</h2>
+            <div class="col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6">
                 <p>I attended Texas State University in San Marcos, Tx and graduated in Spring of 2017 with a B.F.A in Communication Design and a B.A in Computer Science.</p>
             </div>
             <!--/col-md-6-->
-            <div class="col-xs-4 col-sm-6  col-md-6">
-                <p>Innovation, technology and problem solving drive my creation process. By combining computer science and communication design, I can overcome the limitations of each to truly create a funtional design.</p>
+            <div class="col-xs-11 col-xs-offset-1 col-sm-6  col-md-6">
+                <p>Innovation, technology and problem solving drive my creative process. By combining computer science and communication design, I can design a solution and make sure that it will work to solve the problem.</p>
             </div>
             <!--/col-md-6-->
         </div>
@@ -179,12 +179,12 @@
 
                 <div class=" none col-xs-12 col-sm-4 ">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/coabode_thumb.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/Tempo_Thumb.jpg" class="img-responsive" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">coabode</h3>
-                                <h3 class="a1" data-animate="fadeInUp"> Branding <br> Mobile Design</h3>
-                                <a href="coabode.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+                                <h3 class="a1" data-animate="fadeInDown">tempo for intuit</h3>
+                                <h3 class="a1" data-animate="fadeInUp"> Brand Extension <br> Mobile Design <br> Website Design</h3>
+                                <a href="tempo.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
                             </div>
                             <!-- he bg -->
                         </div>
@@ -196,12 +196,13 @@
 
                 <div class=" none col-xs-12 col-sm-4">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_04.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/Gils_Thumb.jpg" class="img-responsive" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+                                <h3 class="a1" data-animate="fadeInDown">Gil's Broiler</h3>
+                                <h3 class="a1" data-animate="fadeInUp">Branding <br> Mobile Design<br> Website Design</h3>
+                                <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i>
+                                </a>
                             </div>
                             <!-- he bg -->
                         </div>
@@ -211,50 +212,53 @@
                 </div>
                 <!-- end col-12 -->
             </div>
+
+            <!-- Second portfolio row-->
             <div class="row centered">
+                <div class=" none col-xs-12 col-sm-4">
+                    <div class="he-wrap tpl6">
+                        <img src="assets/img/Allusion_Thumb.png" class="img-responsive" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">Terra by Osprey</h3>
+                                <h3 class="a1" data-animate="fadeInUp"> Brand Extension <br> Product Design</h3>
+                                <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+
+                            </div>
+                            <!-- he bg -->
+                        </div>
+                        <!-- he view -->
+                    </div>
+                    <!-- he wrap -->
+                </div>
+                <!-- end col-12 -->
+
+                <div class=" none col-xs-12 col-sm-4 ">
+                    <div class="he-wrap tpl6">
+                        <img src="assets/img/Behind_Thumb.png" class="img-responsive" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">tempo for intuit</h3>
+                                <h3 class="a1" data-animate="fadeInUp"> Brand Extension <br> Mobile Design <br> Website Design</h3>
+                                <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+                            </div>
+                            <!-- he bg -->
+                        </div>
+                        <!-- he view -->
+                    </div>
+                    <!-- he wrap -->
+                </div>
+                <!-- end col-12 -->
 
                 <div class=" none col-xs-12 col-sm-4">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_07.jpg" class="img-responsive" alt="">
+                        <img src="assets/img/Cumulo_Thumb.png" class="img-responsive" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-                            </div>
-                            <!-- he bg -->
-                        </div>
-                        <!-- he view -->
-                    </div>
-                    <!-- he wrap -->
-                </div>
-                <!-- end col-12 -->
-
-                <div class="none col-xs-12 col-sm-4">
-                    <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_08.jpg" class="img-responsive" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-                            </div>
-                            <!-- he bg -->
-                        </div>
-                        <!-- he view -->
-                    </div>
-                    <!-- he wrap -->
-                </div>
-                <!-- end col-12 -->
-
-                <div class="none col-xs-12 col-sm-4">
-                    <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_01.jpg" class="img-responsive" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+                                <h3 class="a1" data-animate="fadeInDown">Gil's Broiler</h3>
+                                <h3 class="a1" data-animate="fadeInUp">Branding <br> Mobile Design<br> Website Design</h3>
+                                <a href="g#" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i>
+                                </a>
                             </div>
                             <!-- he bg -->
                         </div>
@@ -264,57 +268,54 @@
                 </div>
                 <!-- end col-12 -->
             </div>
-
-            <!-- end col-12 -->
-        </div>
-        <!-- portfolio -->
-        <div class="container ">
-            <div class="row">
-                <h2 class="centered mb"> My Process </h2>
-            </div>
-            <div class="row centered mb">
-                <div class="col-md-10 col-md-offset-2">
-                    <img src="assets/img/Process.png" class="img-responsive" alt="">
+            <!-- portfolio -->
+            <div class="container ">
+                <div class="row">
+                    <h2 class="centered mtb"> My Process </h2>
                 </div>
+                <div class="row centered mb">
+                    <div class="col-md-10 col-md-offset-2">
+                        <img src="assets/img/Process.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+                <!--/row-->
             </div>
-            <!--/row-->
-        </div>
-        <!--/.container-->
+            <!--/.container-->
 
-        <div class="container mb">
-            <h2 class="mt centered">A few of the technologies I love and use</h2>
-            <div class="col-sm-2">
-                <img src="assets/img/Icons/HTML.png" alt="" class="tech">
-            </div>
-            <div class="col-sm-2">
-                <img src="assets/img/Icons/CSS.png" alt="" class="tech">
-            </div>
-            <div class="col-sm-2">
-                <img src="assets/img/Icons/Javascript.png" alt="" class="tech">
-            </div>
-            <div class="col-sm-2">
-                <img src="assets/img/Icons/Bootstrap.png" alt="" class="tech">
-            </div>
-            <div class="col-sm-2">
-                <img src="assets/img/Icons/Sketch.png" alt="" class="pad-left tech">
-            </div>
-            <div class="col-sm-2">
-                <img src="assets/img/Icons/Photoshop.png" alt="" class="tech">
-            </div>
-            <div class="row">
-                <div class="col-sm-2 col-sm-offset-3">
-                    <img src="assets/img/Icons/InDesign.png" alt="" class="tech">
+            <div class="container mb">
+                <h2 class="mt centered">A few of the technologies I love and use</h2>
+                <div class="col-sm-2">
+                    <img src="assets/img/Icons/HTML.png" alt="" class="tech">
                 </div>
                 <div class="col-sm-2">
-                    <img src="assets/img/Icons/Illustrator.png" alt="" class="tech">
+                    <img src="assets/img/Icons/CSS.png" alt="" class="tech">
                 </div>
                 <div class="col-sm-2">
-                    <img src="assets/img/Icons/Github.png" alt="" class="tech">
+                    <img src="assets/img/Icons/Javascript.png" alt="" class="tech">
                 </div>
+                <div class="col-sm-2">
+                    <img src="assets/img/Icons/Bootstrap.png" alt="" class="tech">
+                </div>
+                <div class="col-sm-2">
+                    <img src="assets/img/Icons/Sketch.png" alt="" class="pad-left tech">
+                </div>
+                <div class="col-sm-2">
+                    <img src="assets/img/Icons/Photoshop.png" alt="" class="tech">
+                </div>
+                <div class="row">
+                    <div class="col-sm-2 col-sm-offset-3">
+                        <img src="assets/img/Icons/InDesign.png" alt="" class="tech">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="assets/img/Icons/Illustrator.png" alt="" class="tech">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="assets/img/Icons/Github.png" alt="" class="tech">
+                    </div>
+                </div>
+                <!--/row-->
             </div>
-            <!--/row-->
-        </div>
-        <!--/container-->
+            <!--/container-->
         </div>
         <!--/.G-->
 
@@ -344,6 +345,8 @@
         <script src="assets/js/jquery.prettyPhoto.js"></script>
         <script src="assets/js/jquery.isotope.min.js"></script>
         <script src="assets/js/custom.js"></script>
+        <script src="assets/js/scrolling-nav.js"></script>
+        <script src="assets/js/jquery.easing.min.js"></script>
 
 
         <script>

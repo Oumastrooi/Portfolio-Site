@@ -1,0 +1,14 @@
+/* Portfolio */
+
+.portfolio .sy-controls {
+    display: block;
+}
+
+.portfolio .sy-pager {
+    margin: 1.5em 0;
+}
+
+.portfolio .external-captions {
+    background-color: #fff;
+    padding: 1em;
+}
