@@ -1,0 +1,125 @@
+$navy: #0a2436;
+$blue: #009d9d;
+$yellow: #ffc34d;
+$pink: #ec5e5e;
+$cream: #dbdcdd;
+$black: #1e1e1e;
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'usual', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    color: $blue;
+}
+
+header {
+    background-image: url("../assets/img/behind/poster.png");
+    background-size: cover;
+    max-width: 100%;
+    z-index: 99;
+}
+
+.giant {
+    font-size: 17em;
+    line-height: .75em;
+}
+
+section {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+navbar-header {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#behind h1 {
+    font-family: 'usual', sans-serif;
+    color: $blue;
+    font-size: 7em;
+    text-align: right;
+    font-weight: bold;
+}
+
+#behind .header-type {
+    color: $cream;
+    text-align: left;
+    white-space: nowrap;
+    position: absolute;
+    margin-left: 10em;
+    top: 3.5em;
+}
+
+#behind h2 {
+    font-family: 'usual', sans-serif;
+    color: $navy;
+    text-align: right;
+    line-height: 5px;
+}
+
+h3 {
+    color: $blue;
+    font-size: 2em;
+}
+
+.avenir-roman {
+    font-family: 'usual', sans-serif;
+    font-weight: 400;
+}
+
+.avenir-black {
+    font-family: 'usual', sans-serif;
+    font-weight: 700;
+}
+
+.pad-top {
+    padding-top: 20em;
+}
+
+.device {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Portfolio */
+
+.portfolio .sy-controls {
+    display: block;
+}
+
+.portfolio .sy-pager {
+    margin: 1.5em 0;
+}
+
+.portfolio .external-captions {
+    background-color: #fff;
+    padding: 1em;
+}
+
+.sy-slides-wrap {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*# sourceMappingURL=terra.css.map */
