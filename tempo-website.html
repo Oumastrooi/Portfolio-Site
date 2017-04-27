@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="assets/js/slippry.min.js"></script>
+    <link rel="stylesheet" href="assets/css/slippry.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/img//favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img//favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/img//manifest.json">
+    <link rel="mask-icon" href="/assets/img//safari-pinned-tab.svg" color="#d26a28">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>tempo for intuit</title>
+
+    <!-- Import Typekit fonts -->
+    <script src="https://use.typekit.net/uos8gqg.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <!--  -Proxima Nova- -->
+    <script src="https://use.typekit.net/uos8gqg.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Elize Geldenhuys CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- tempo CSS -->
+    <link href="assets/css/tempo.css" rel="stylesheet">
+    <link href="assets/css/tempo-website.css" rel="stylesheet">
+
+    <!-- import nunito - avenir alternate -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Elize Geldenhuys</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#g">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Connect</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+    <!-- Hero Image -->
+    <header id="tempo-website">
+
+        <!--Slider -->
+        <ul id="slider">
+            <li>
+                <a href="#slide1"><img src="assets/img/tempo/1.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide2"><img src="assets/img/tempo/2.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide3"><img src="assets/img/tempo/3.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide4"><img src="assets/img/tempo/4.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide5"><img src="assets/img/tempo/6.jpg" alt="process sketch"></a>
+            </li>
+        </ul>
+
+
+
+
+
+
+    </header>
+    <!--H-->
+
+
+    <div>
+    </div>
+
+    <section id="About" class="container-fluid">
+
+        <!--Slider -->
+        <ul id="slider">
+            <li>
+                <a href="#slide1"><img src="assets/img/tempo/1.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide2"><img src="assets/img/tempo/2.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide3"><img src="assets/img/tempo/3.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide4"><img src="assets/img/tempo/4.jpg" alt="process sketch"></a>
+            </li>
+            <li>
+                <a href="#slide5"><img src="assets/img/tempo/6.jpg" alt="process sketch"></a>
+            </li>
+        </ul>
+
+        <script>
+            jQuery(document).ready(function() {
+                jQuery('#slider').slippry({
+                    // general elements & wrapper
+                    slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+                    // options
+                    adaptiveHeight: false, // height of the sliders adapts to current slide
+                    start: 'random', // num (starting from 1), random
+                    loop: true, // first -> last & last -> first arrows
+
+                    //duration 
+                    pause: 2000,
+
+                    // transitions
+                    transition: 'fade', // fade, horizontal, kenburns, false
+                    easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+                    continuous: true,
+
+                    //captions
+                    captions: false,
+
+                    // slideshow
+                    auto: true,
+
+                    //responsive
+                    responsive: true
+                });
+            });
+        </script>
+
+
+
+
+    </section>
+
+
+    <!-- Branding -->
+    <section id="Branding" class="container-fluid">
+
+
+
+
+    </section>
+    <!-- /.container -->
+
+    <!-- APP DESIGN TODO -->
+    <section id="App" class="container-fluid centered mb">
+
+        <div class="row">
+
+
+
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-md-offset-1">
+                    <img src="assets/img/tempo/schedule.jpg" alt="the schedule system for phones" style="max-width: 100%" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-md-4 pad-top">
+                    <h3>Easily create schedules to share<br>instantly with employees</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-md-offset-1 pad-top">
+                    <h3>Set how close employees have to be in order to clock in and out.</h3>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                    <img src="assets/img/tempo/geolocation.jpg" alt="geolocation" style="max-width: 100%" class="img-responsive">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-7 ">
+                    <img src="assets/img/tempo/clockIn.jpg" alt="employee clock in" style="max-width: 100%" class="img-responsive">
+
+                </div>
+                <div class="col-xs-12 col-md-4 pad-top">
+                    <h3>Employees can clock in and see all relevant information about hours worked and vacation days.</h3>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-5 col-md-offset-2">
+                    <img src="assets/img/tempo/tablet.jpg" alt="tablet view" style="max-width: 100%" class="img-responsive">
+
+                </div>
+                <div class="col-xs-12 col-md-3 pad-top">
+                    <h3>tempo also has a tablet view that can make building schedules easier.</h3>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <!-- end slider -->
+
+    </section>
+
+    <!-- Website Design TODO -->
+    <section id="website" class="container-fluid centered mb">
+        <h2 class="centered mb">Website Design</h2>
+        <a href="#">
+            <h4> See the site in action! </h4>
+        </a>
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2">
+                <p style="text-align: left"> The tempo website design is intended to be the point of sale on the intuit website. It is similar to the other application’s websites to create a familiar feel for potential employers looking at expanding their intuit </p>
+            </div>
+
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <p style="text-align: left">application library. The mobile and tablet app allow the website to remain simple because the other apps integrate seamlessly with tempo. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-5 col-md-offset-1">
+                <img src="assets/img/tempo/web_sketch.jpg" alt="website sketch" style="max-width: 100%" class="img-responsive">
+            </div>
+
+            <div class="col-xs-12 col-md-5">
+                <img src="assets/img/tempo/web_wireframe.png" alt="website sketch" style="max-width: 100%" class="img-responsive">
+            </div>
+
+
+
+    </section>
+
+    <section id="project-scroll">
+        <div class="row">
+            <div class="col-xs-6 col-md-3 col-md-offset-1">
+                <a href="Terra.html">
+                    <i class="ion-chevron-left"> </i>
+                    <h5>Previous Project </h5>
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3 col-md-offset-5">
+                <a href="tempo.html">
+                    <h5 style="text-align: right;"> Next Project </h5>
+                    <i class="ion-chevron-right"> </i>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row centered">
+            <div class="col-sm-2  col-sm-offset-3">
+                <a href="https://github.com/Oumastrooi"><i class="ion-social-github"></i></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="https://www.linkedin.com/in/elizeg/"><i class="ion-social-linkedin"></i></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="https://www.pinterest.com/oumastrooi/"><i class="ion-social-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/retina-1.1.0.js "></script>
+    <script src="assets/js/custom.js "></script>
+
+
+
+</body>
+
+</html>

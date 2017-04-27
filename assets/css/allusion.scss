@@ -1,0 +1,42 @@
+    header {
+        background-image: url(../img/allusion/header2.jpg);
+        height: 90vh;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "proxima nova", sans-serif;
+        color: #0e2234;
+    }
+    
+    .logo-type {
+        font-family: "niveau-grotesk-small-caps", sans-serif;
+        color: #71b7bd;
+        font-size: 7em;
+        margin-top: 1em;
+        margin-left: 6.2em;
+        position: absolute;
+    }
+    /* Portfolio */
+    
+    .portfolio .sy-controls {
+        display: block;
+    }
+    
+    .portfolio .sy-pager {
+        margin: 1.5em 0;
+    }
+    
+    .portfolio .external-captions {
+        background-color: #fff;
+        padding: 1em;
+    }
+    
+    .sy-slides-wrap {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
