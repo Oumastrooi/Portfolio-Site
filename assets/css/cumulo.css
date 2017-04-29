@@ -1,0 +1,123 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+body {
+  font-family: "filson-soft", Arial, Helvetica, sans-serif; }
+
+#cumulo {
+  background-image: url("../img/cumulo/cumulo_header.png");
+  background-size: cover;
+  height: 95vh; }
+
+#website {
+  background-image: url("../img/cumulo/gradient_back_dark.png");
+  background-size: cover; }
+  #website a {
+    font-size: 1.2em;
+    letter-spacing: 1px; }
+
+h1 {
+  color: white;
+  font-size: 7em;
+  line-height: 1em;
+  text-align: left; }
+
+h2 {
+  color: black;
+  font-size: 3em;
+  line-height: 1em; }
+
+h3 {
+  color: black;
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center; }
+
+b {
+  font-family: "filson-soft", Arial, Helvetica, sans-serif;
+  font-weight: 700; }
+
+header p {
+  font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+  color: black; }
+  header p a {
+    font-size: inherit; }
+
+p {
+  font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+  color: black;
+  font-weight: 400; }
+
+.white {
+  color: white; }
+
+.bold {
+  font-weight: 700; }
+
+.centered {
+  text-align: center; }
+
+.pad-bot {
+  padding-bottom: 1.5em; }
+
+.pad-top {
+  padding-top: 40%; }
+
+.none {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.light-blue {
+  color: #a0ced8; }
+
+.blue {
+  color: #426a82; }
+
+.purple {
+  color: #9f71aa; }
+
+.filson {
+  font-family: "filson-soft", Arial, Helvetica, sans-serif;
+  text-align: left; }
+
+.proxima {
+  font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
+  text-align: left; }
+
+#cumulo-nav li a {
+  color: black; }
+#cumulo-nav li a:active,
+#cumulo-nav li a:focus,
+#cumulo-nav li a:hover {
+  color: #a0ced8; }
+
+#cumulo-home {
+  background-image: url("../img/cumulo/web_home_header.png");
+  height: 95vh; }
+
+#cumulo-device {
+  background-image: url("../img/cumulo/gradient_back_dark.png");
+  height: 95vh; }
+
+#website {
+  background-color: white; }
+
+#cumulo-device-footer {
+  background-image: url("../img/cumulo/web_device_footer.png");
+  height: 200%; }
+
+.space {
+  height: 110vh; }
+
+.opacity {
+  background: rgba(255, 255, 255, 0.4); }
+
+/*# sourceMappingURL=cumulo.css.map */
